@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FCC: Product Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<header>
+		<div id="logoandnavbar">
+			<img id="header-img" src="logo.png">
+			<nav id="nav-bar">
+				<ul>
+                 	<li><a class="nav-link" href=#form>Features</a></li>
+                 	<li><a class="nav-link" href=#anchor>How It Works</a></li>
+                 	<li><a class="nav-link" href=#flex-container>Pricing</a></li>
+            	</ul>
+			</nav>
+		</div>
+	</header>
+	<form action="https://www.freecodecamp.com/email-submit" id="form">
+		<label for="email-label" id="email-label">Begin your musical career now!<br>
+			<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+		</label>
+		<input type="submit" id="submit" value="GET STARTED">
+	</form>
+	<div id="features">
+		<div class="features-icon"><i class="fas fa-3x fa-music"></i></div>
+		<div class="features-desc">
+			<h2>Various Music Genres</h2>
+			<p>Divided into 3 main genres - Rock/Metal, Jazz and Classical - we offer a wide variety of subgenres to ensure maximum enjoyment of our lessons and practice sessions.</p>
+		</div>
+		<div class="features-icon"><i class="fas fa-3x fa-chalkboard-teacher"></i></div>
+		<div class="features-desc">
+			<h2>Fully Educated And Experienced Teachers</h2>
+			<p>You will be taken care of by our well-experienced staff with an adequate musical education background.</p>
+		</div>
+		<div class="features-icon"><i class="fas fa-3x fa-book-reader"></i></div>
+		<div class="features-desc">
+			<h2>Music Theory</h2>
+			<p>Playing an instrument is only one side of the coin. Because we put emphasis on a complete musical education we also offer lessons in musical theory.</p>
+		</div>
+		<div class="features-icon"><i class="fas fa-3x fa-users"></i></div>
+		<div class="features-desc">
+			<h2>Individual Lessons And Classes</h2>
+			<p>Not only are our students looked after individually but also classes with additional band sessions are of big importance to us to encourage grouping and socializing among fellow musicians.</p>
+		</div>
+		<div class="features-icon"><i class="fas fa-3x fa-laptop"></i></div>
+		<div class="features-desc">
+			<h2>Online Accessibility</h2>
+			<p>Whether you're unable to attend every lesson or in need of additional practice, our students have permanent access to our repertory of numerous video-lessons, available online.</p>
+		</div>
+	</div>
+	<span class="anchor" id="anchor"></span>
+	<div id="video-div">
+		<iframe  id="video" width="560" height="315" src="https://www.youtube.com/embed/hAwlruA_fsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>	
+	<div id="flex-container">
+  		<div class="box">
+  			<h2>Rock / Heavy Metal</h2>
+  			<img src="rock.jpg">
+  			<h3>$40 / Month</h3>
+			<p>Acoustic / Electric Guitar</p>
+			<p>Bass Guitar</p>	
+  			<p>Drums</p>
+  			<p>Hammond Organ</p>
+  			<p>Piano</p>
+  			<input type="submit" class="select" value="SELECT">
+  		</div>
+  		<div class="box">
+  			<h2>Jazz</h2>
+  			<img src="jazz.jpg">
+  			<h3>$50 / Month</h3>
+  			<p>Jazz Guitar / Bass Guitar / Double Bass</p>	
+  			<p>Clarinet</p>
+  			<p>Drums</p>
+  			<p>Saxophone</p>
+  			<p>Trombone</p>
+  			<input type="submit" class="select" value="SELECT">
+  		</div>
+  		<div class="box">
+  			<h2>Classical</h2>
+  			<img src="classic.jpg">
+  			<h3>$60 / Month</h3>
+  			<p>Violoncello </p>
+  			<p>Flute</p>
+  			<p>Harp</p>
+  			<p>Piano</p>
+  			<p>Violin / Fiddle</p>
+  			<input type="submit" class="select" value="SELECT">
+  		</div>
+	</div>
+	<footer>
+		<div id="footer-div">
+			<p>Copyright 2020, ABC Music School</p>
+			<ul>	
+				<li><a href=#privacy>Privacy</a></li>
+				<li><a href=#terms>Terms</a></li>
+				<li><a href=#contact>Contact</a></li>
+			</ul>	
+		</div>
+	</footer>
+</body>
+</html>
